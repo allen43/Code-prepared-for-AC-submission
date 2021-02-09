@@ -5,8 +5,8 @@ if __name__ == '__main__':
     import torch.nn as nn
     #x_fn为数据，3000*1000，y_fn为label数据，3000*1
 
-    X = np.loadtxt('E:\zhoubo/data/data_nc_finetune.txt')
-    y = np.loadtxt('E:\zhoubo/data/label_nc_finetune.txt')
+    X = np.loadtxt('./data/data_nc_finetune.txt')
+    y = np.loadtxt('./data/label_nc_finetune.txt')
     print(X.shape, y.shape)
 
 
